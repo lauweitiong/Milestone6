@@ -11,7 +11,7 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 
 
 arr = []
-for file in os.listdir(r"C:\Users\lauti04\Desktop\Pcode\Sem4\DataMining\data mining project\Milestone6"):
+for file in os.listdir(r"https://github.com/lauweitiong/Milestone6/tree/master/Data"):
     if file.endswith(".pdf"):
         arr.append(file)
 
@@ -43,4 +43,4 @@ del stocks_final['Unnamed: 2']
 stocks_final = stocks_final.rename(columns={'Cur.':'Currency', 'Stock Name':'Stock_name', 'Value Traded': 'Val_traded', 'Volume': 'Vol_traded'}) 
 
 stocks_final.to_csv('Stock_data.csv',index=False)  
-        
+Print("Hello")  

@@ -1,4 +1,4 @@
 # Milestone6
 
 
-## In data folder consists of data and scripts.
+### Data folder consists of data and scripts.
